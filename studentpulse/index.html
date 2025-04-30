@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>StudentPulse</h1>
+    <h3>Introduction</h3>
+    <p>Welcome! My project is a web page designed to collect data on student preferences regarding classes and tutoring topics. </p>
+    <hr>
+
+    <div class='form'>
+      <div class='form-item'>
+        <label>Name:</label>
+        <input type="text" required size="30" />
+      </div>
+      
+      <div class='form-item'>
+        <label>Email:</label>
+        <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+      </div>
+      
+      <div class='form-item'>
+        <label>Preferred Course 1:</label>
+        <select name="preferred course 1">
+          <option>Select course 1</option>
+          <option value="Algebra1">Algebra 1</option>
+          <option value="Algebra 2">Algebra 2</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="english9">English 9</option>
+          <option value="english10">English 10</option>
+          <option value="economics">Economics</option>
+          <option value="pcs">Principles of Computer Science</option>
+        </select>
+      </div>
+      
+      <div class='form-item'>
+        <label>Preferred Course 2:</label>
+        <select name="preferred course 2">
+          <option>Select course 2</option>
+          <option value="Algebra1">Algebra 1</option>
+          <option value="Algebra 2">Algebra 2</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="english9">English 9</option>
+          <option value="english10">English 10</option>
+          <option value="economics">Economics</option>
+          <option value="pcs">Principles of Computer Science</option>
+        </select>
+      </div>
+      
+      <div class='form-item'>
+        <label>Format:</label>
+        <div>
+          <input type="radio" name="Format" value="In person"/>
+          <label>In Person</label>
+
+          <input type="radio" name="Format" value="Online"/>
+          <label>Online</label>
+        </div>
+      </div>
+      
+      <div class='form-item'>
+        <label>Preferred Time:</label>
+        <select name="preferred_time">
+          <option>Select time</option>
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select>
+      </div>
+
+      <div class="centered">
+        <a href="screen2.html">
+          <input type="submit"/>
+        </a>
+      </div>
+    </div>
+    
+  </body>
+</html>
